@@ -1,1 +1,23 @@
-[COLLER LE CONTENU DU .GITIGNORE ICI] 
+# Godot-specific files to ignore
+.import/
+.export/
+.export-templates/
+
+# Godot binary project cache
+*.godot
+
+# Temporary files
+*.tmp
+*.log
+*.cfg
+*.converted.*
+*.imported.*
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# User-specific files
+*.user
+*.userprefs
